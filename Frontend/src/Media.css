@@ -1,0 +1,399 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {
+    .main_Tools_acc {
+        flex-wrap: wrap;
+    }
+
+    .tool_acc_one {
+        width: 100%;
+    }
+
+    .tool_acc_two_three_main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_section_right h1 {
+        font-size: 40px;
+        padding: 5px 0px;
+    }
+
+    .about_section_left img {
+        width: 450px;
+        height: 550px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+    .our_service {
+        flex-wrap: wrap;
+
+    }
+
+    .our_service_one,
+    .our_service_two,
+    .our_service_three,
+    .our_service_four {
+        padding: 20px;
+    }
+
+    .our_service_one p,
+    .our_service_two p,
+    .our_service_three p,
+    .our_service_four p {
+        padding: 20px;
+    }
+
+    .about_section_left img {
+        width: 450px;
+        height: 710px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+
+
+
+    .section_carousel h2 {
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .section_carousel h1 {
+        font-size: 100px;
+        margin-left: 90px;
+    }
+
+    .section_carousel p {
+        font-size: 20px;
+        margin-left: 90px;
+
+    }
+
+    .Shop_now {
+        padding: 18px 50px;
+        margin-left: 90px;
+
+    }
+
+    .tool_acc_two_three_main {
+        flex-direction: column;
+    }
+
+    .tool_acc_two_sub_one,
+    .tool_acc_two_sub_two {
+        width: 100%;
+    }
+
+    .tool_acc_three {
+        flex-direction: row;
+        width: 100%;
+        height: 346px;
+    }
+
+    .about_section {
+        flex-wrap: wrap;
+    }
+
+    .about_section_left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_product{
+        flex-wrap: wrap;
+    }
+
+    .product_image_title,.product_info_buy{
+        flex: 100%;
+    }
+
+    .product_image_title{
+        margin-right: 50px;
+    }
+
+    .app_name{
+        font-size: 21px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .section_carousel h2 {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .section_carousel h1 {
+        font-size: 85px;
+        ;
+        margin-left: 50px;
+        line-height: 116.77px;
+    }
+
+    .section_carousel p {
+        font-size: 19px;
+        margin-left: 50px;
+
+    }
+
+    .Shop_now {
+        padding: 18px 50px;
+        margin-left: 50px;
+    }
+
+    .tool_acc_three_bottom>h2 {
+        display: none;
+    }
+
+    .tool_acc_three_bottom>p {
+        display: none;
+    }
+
+    .tool_acc_three_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tool_acc_three_top_none {
+        display: block;
+    }
+
+    .tool_acc_three {
+        height: 410px;
+    }
+
+    .tool_acc_three_top p {
+        padding-left: 20px;
+    }
+
+    .tool_acc_three_top_none h2 {
+        padding-left: 20px;
+    }
+
+    .our_service_one,
+    .our_service_two,
+    .our_service_three,
+    .our_service_four {
+        flex-wrap: wrap;
+    }
+
+    .brand_logo p {
+        padding: 40px;
+    }
+
+    .brand-logo {
+        width: 100% !important;
+    }
+
+    .contact_form {
+        padding: 50px;
+    }
+
+    .full_name {
+        flex-wrap: wrap;
+    }
+
+    .first_name,
+    .last_name {
+        flex: 100%;
+    }
+
+    .full_name input {
+        width: 100%;
+    }
+
+
+    .login_card {
+        flex-direction: column;
+      }
+    
+      .login_info_panel {
+        padding: 2rem 1.5rem;
+      }
+    
+      .app_name {
+        font-size: 1.8rem;
+      }
+    
+      .app_tagline {
+        font-size: 1rem;
+      }
+    
+      .login_illustration {
+        max-width: 200px;
+      }
+    
+      .login_form_container {
+        padding: 2rem 1.5rem;
+      }
+
+      .checkout-content {
+        flex-direction: column;
+      }
+    
+      .checkout-form,
+      .checkout-summary {
+        flex: 1 1 100%;
+      }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width:576px) {
+
+    .brand_logo img {
+        height: 45px;
+    }
+
+    .section_carousel h2 {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .section_carousel h1 {
+        font-size: 56px;
+        ;
+        margin-left: 20px;
+        line-height: 60.77px;
+    }
+
+    .section_carousel p {
+        font-size: 19px;
+        margin-left: 20px;
+        margin-top: 15px;
+
+    }
+
+    .Shop_now {
+        padding: 10px 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .section_carousel {
+        padding-bottom: 255px;
+    }
+
+    .tool_acc_one span:nth-of-type(2) {
+        font-size: 40px;
+    }
+
+    .tool_acc_one {
+        height: 400px;
+    }
+
+    .tool_acc_three {
+        flex-direction: column;
+        height: 571px;
+    }
+
+    .tool_acc_two_sub_two>h2 {
+        background-image: url(../public/images/Rectangle\ 53.png);
+        font-size: 15px;
+        line-height: 29.26px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tool_acc_three_bottom,
+    .tool_acc_two_sub_one>div,
+    .tool_acc_two_sub_two>div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tool_acc_two_sub_one,
+    .tool_acc_two_sub_two {
+        height: 571px;
+    }
+
+    .tool_acc_three_bottom img {
+        height: 150px;
+    }
+
+    .our_service_left,
+    .our_service_right {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .about_section {
+        padding: 20px;
+        text-align: start;
+    }
+
+    .about_section_right h1 {
+        font-size: 30px;
+    }
+
+
+
+    .footer-sign-up {
+        margin: 20px !important;
+
+    }
+
+    .service_form {
+        padding: 50px;
+    }
+
+    .first_last_name,
+    .email_mobile,
+    .city_state {
+        flex-wrap: wrap;
+    }
+
+    .service_first_name,
+    .service_last_name,
+    .service_email,
+    .service_mobile,
+    .city,
+    .state {
+        flex: 100%;
+    }
+
+    .first_last_name input,
+    .email_mobile input,
+    .city_state input {
+        width: 100%;
+    }
+
+    .product_title{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .product_image_title img{
+        height:350px;
+        width:  200px;
+    }
+
+    .login_wrapper {
+        padding-top: 100px;
+        padding-bottom: 30px;
+      }
+    
+      .app_name {
+        font-size: 1.6rem;
+      }
+    
+      .app_tagline {
+        font-size: 0.95rem;
+      }
+    
+      .login_illustration {
+        max-width: 150px;
+      }
+    
+      .login_form_container {
+        padding: 1.5rem 1rem;
+      }
+
+}
